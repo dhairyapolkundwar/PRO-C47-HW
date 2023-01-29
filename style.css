@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: arial;
+  src: url(./algerian.ttf);
+  
+}
+
+canvas {
+  display: block;
+}
+
+.gameTitle{
+  color: white;
+  font-size: 96px;
+}
+
+.gameSubtitle{
+  color: white;
+  font-size: 48px;
+}
+
+.gameButton{
+  padding: 20px 40px;
+  margin: 0;
+  background-color:crimson;
+  color:white;
+  transition-duration: 0.4s;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.gameButton:hover{
+  color:black;
+  background-color: darkorange;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.gameButtonPaused{
+  padding: 20px 100px;
+  margin: 0;
+  background-color:crimson;
+  color:white;
+  transition-duration: 0.4s;
+  font-size: 60px;
+  display: inline-block;
+}
+
+.gameButtonPaused:hover{
+  color:black;
+  background-color: darkorange;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.gameButtonHome{
+  padding: 20px 20px;
+  margin: 0;
+  
+  
+  background-color: transparent;
+  border-color: transparent;
+
+  color:white;
+  transition-duration: 0.4s;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.gameButtonHome:hover{
+  color:black;
+  
+  text-decoration: underline;
+}
